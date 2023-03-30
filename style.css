@@ -50,8 +50,17 @@ body {
 }
 
 .hr {
-    width: 95%;
+    width: 94%;
     margin: auto;
+}
+
+.hr-1 {
+    width: 94%;
+    margin: auto;
+}
+
+.hr-1 .container-2 {
+    padding: 5px;
 }
 
 a {
@@ -62,16 +71,13 @@ a {
 
 .economyclass-container {
     display: grid;
-    align-items: center;
+    /* align-items: center; */
+    margin-left: 20px;
+    margin-right: 20px;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
 
 }
 
-.economyclass-container .box {
-    text-align: center;
-  /* margin-bottom: 0; */
-
-}
 
 .studentoffer_cont.box {
     padding-top: 10px;
@@ -97,6 +103,8 @@ a {
 
 .special-flight_cont {
     padding: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
 }
 
 #offers {
@@ -106,7 +114,7 @@ a {
 .sub-cont {
     background-color: rgb(126, 24, 78);
     height: 30px;
-    width: 98%;
+    width: 100%;
     margin: auto;
     color: white;
     margin-top: 15px;
@@ -128,6 +136,8 @@ a {
     color: rgb(126, 24, 78);
     font-size: 22px;
     font-weight: bold;
+    /* margin-left: 20px; */
+   /* text-align: left; */
 }
 
 a {
@@ -136,11 +146,12 @@ a {
 }
 
 .terms {
-    margin-left: 10px;
-    margin-top: 15px;
+
+    margin-left: 18px;
     color: rgb(154, 32, 97);
 
 }
+
 
 #book {
     color: rgb(154, 32, 97);
@@ -151,7 +162,6 @@ a {
     height: 35px;
     width: 95%;
     margin: auto;
-    margin-top: 10px;
     padding: 2px;
     font-weight: bolder;
     background-color: rgb(142, 137, 137);
@@ -160,7 +170,7 @@ a {
 .offer-header {
     font-size: 18px;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
     color: white;
 }
 
@@ -184,7 +194,7 @@ a {
 }
 
 .container_content-subscriber {
-    padding: 12px;
+    padding: 15px;
     padding-bottom: 0;
 }
 
@@ -325,6 +335,7 @@ footer {
     #view-offer {
         font-size: 13px;
     }
+
     .hr-hide {
         display: none;
     }
