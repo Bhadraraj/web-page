@@ -125,40 +125,27 @@ a {
 
 #view-offer {
     float: right;
-    color: rgb(126, 24, 78);
 }
 
 .price {
     font-size: 25px;
 }
 
-.flight_to {
-    color: rgb(126, 24, 78);
+.flight_to{
     font-size: 22px;
     font-weight: bold;
-    /* margin-left: 20px; */
-   /* text-align: left; */
 }
 
-a {
+a,.flight_to ,#view-offer, 
+.terms, #book ,#read-more, .fa-solid, .website{
     color: rgb(154, 32, 97);
-
 }
 
 .terms {
-
     margin-left: 18px;
-    color: rgb(154, 32, 97);
-
-}
-
-
-#book {
-    color: rgb(154, 32, 97);
 }
 
 #student_offer {
-
     height: 35px;
     width: 95%;
     margin: auto;
@@ -178,7 +165,6 @@ a {
     display: flex;
     padding: 8px;
     width: 100%;
-
 }
 
 #left_space {
@@ -190,16 +176,11 @@ a {
 .fa-solid {
     font-size: 13px;
     margin: auto;
-    color: rgb(126, 24, 78);
 }
 
 .container_content-subscriber {
     padding: 15px;
     padding-bottom: 0;
-}
-
-#read-more {
-    color: rgb(126, 24, 78);
 }
 
 .web_url {
@@ -209,10 +190,7 @@ a {
 }
 
 .website {
-    color: rgb(126, 24, 78);
     padding: 16px;
-
-
 }
 
 footer {
@@ -340,7 +318,6 @@ footer {
         display: none;
     }
 
-
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -359,5 +336,4 @@ footer {
     .container {
         width: 50%
     }
-
 }
