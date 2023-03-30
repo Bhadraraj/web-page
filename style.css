@@ -81,6 +81,7 @@ a {
 .studentoffer_cont {
     display: grid;
     align-items: center;
+    padding: 10px;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
 }
 
